@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "consignaciones_forms",
+  "info": {
+    "singularName": "consignaciones-form",
+    "pluralName": "consignaciones-forms",
+    "displayName": "Consignaciones_Form"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "property_type": {
+      "type": "integer",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "comments": {
+      "type": "blocks",
+      "required": true
+    },
+    "data_consent": {
+      "type": "boolean",
+      "required": true
+    },
+    "created_at_form": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}
